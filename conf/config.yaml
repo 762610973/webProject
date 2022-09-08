@@ -1,0 +1,31 @@
+name: "webProject"
+mode: "dev"
+port:  1112
+version: "v0.0.1"
+start_time: "2020-07-01"
+machine_id: 1
+
+auth:
+  jwt_expire: 8760
+
+log:
+  level: "info"
+  filename: "web_app.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: 123.56.101.219
+  port: 3306
+  user: "root"
+  password: "jxlJXL1112"
+  dbname: "webProject"
+  max_open_conns: 200
+  max_idle_conns: 50
+redis:
+  host: 123.56.101.219
+  port: 6379
+  password: "jxlJXL1112"
+  db: 0
+  pool_size: 100
