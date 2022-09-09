@@ -16,16 +16,16 @@ log:
   max_backups: 7
 
 mysql:
-  host: 123.56.101.219
+  host: 
   port: 3306
-  user: "root"
-  password: "jxlJXL1112"
+  user: ""
+  password: ""
   dbname: "webProject"
   max_open_conns: 200
   max_idle_conns: 50
 redis:
-  host: 123.56.101.219
+  host: 
   port: 6379
-  password: "jxlJXL1112"
+  password: ""
   db: 0
   pool_size: 100
