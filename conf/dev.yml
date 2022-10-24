@@ -1,6 +1,6 @@
-name: "webProject"
+name: 
 mode: "dev"
-port: 8084
+port: 
 version: "v0.0.1"
 start_time: "2022-08-27"
 machine_id: 1
@@ -15,16 +15,16 @@ log:
   max_age: 30
   max_backups: 7
 mysql:
-  host: 123.56.101.219
-  port: 3306
-  user: "root"
-  password: "jxlJXL1112"
-  dbname: "webProject"
-  max_open_conns: 200
-  max_idle_conns: 50
+  host: 
+  port: 
+  user: 
+  password: 
+  dbname: 
+  max_open_conns: 
+  max_idle_conns: 
 redis:
-  host: 123.56.101.219
-  port: jxlJXL1112
+  host: 
+  port: 
   password: ""
   db: 6
   pool_size: 100
